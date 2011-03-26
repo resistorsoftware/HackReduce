@@ -1,0 +1,21 @@
+PATH
+  remote: ../gems/wukong
+  specs:
+    wukong (2.0.0)
+      addressable
+      configliere
+      extlib
+      htmlentities
+
+GEM
+  specs:
+    addressable (2.2.4)
+    configliere (0.3.2)
+    extlib (0.9.15)
+    htmlentities (4.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  wukong!
