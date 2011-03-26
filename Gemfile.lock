@@ -1,5 +1,6 @@
-PATH
-  remote: ../gems/wukong
+GIT
+  remote: git://github.com/christocracy/wukong.git
+  revision: 7e3641c25b82e6dfa1b257a73f567157d0a585b4
   specs:
     wukong (2.0.0)
       addressable
@@ -12,10 +13,18 @@ GEM
     addressable (2.2.4)
     configliere (0.3.2)
     extlib (0.9.15)
+    haml (3.0.25)
     htmlentities (4.2.4)
+    rack (1.2.2)
+    sinatra (1.2.1)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
+  sinatra
   wukong!

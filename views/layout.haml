@@ -1,0 +1,15 @@
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    
+    %link{ :rel => "shortcut icon", :href => "/favicon.ico", :type => "image/x-icon"}
+    %title "HackReduce"
+    
+    %link{:href => "/app/screen.css", :rel => "stylesheet", :type => "text/css"}/
+    
+    %link{:href => "/stylesheets/silk.css", :rel => "stylesheet", :type =>"text/css"}
+    %link{:href => "/javascripts/ext-4.0-pr5/resources/css/ext-all.css", :rel => "stylesheet", :type => "text/css"}
+    %script{:src => "/javascripts/ext-4.0-pr5/bootstrap.js", :type => "text/javascript"}
+    
+    %body{:class => ""}
+      =yield
